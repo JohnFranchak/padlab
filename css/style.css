@@ -1,0 +1,148 @@
+/********************* Colour reference chart****************
+*************************** comment ********* colour ******** 
+
+page background       		bbg				#F2EEDD
+highlight 					hlc				#D94214
+dark text color             dtc				#193441
+light text color			ltc				#52616D
+
+* */
+
+/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;
+	vertical-align: baseline;background: transparent;background-color:/*bbg*/#F2EEDD}
+body {line-height: 1; }
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;}
+:focus {outline: 0;}
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+/*Text styles*/
+span.heavy {font-weight:400; color:/*hlc*/#D94214}
+h4 {font-family: 'Oxygen', sans-serif; font-weight:300;font-size:18px; color: /*dtc*/#193441; margin: 20px 0 30px 0; text-align:left; 
+line-height:30px; letter-spacing: 1px;}
+h5 {font-family: 'Pontano Sans', sans-serif; font-size:20px; font-weight: 400; color: /*ltc*/#52616D; text-align:left; margin:15px 0 5px 0;}
+p {font-family: 'Oxygen', sans-serif; line-height:24px; font-size:13px;margin:0 0 10px 0;}
+
+/* Link */
+a { color:/*ltc*/#52616D; text-decoration:none; font-family: 'Oxygen', sans-serif;}
+a:link, a:visited { color:/*ltc*/#52616D; text-decoration: none; font-family: 'Oxygen', sans-serif;}
+a:active, a:hover { color:/*hlc*/#D94214; text-decoration: none; font-family: 'Oxygen', sans-serif;}
+
+
+/*publist*/
+ul.pub {margin-right: 50px; font-family: 'Oxygen', sans-serif;}
+ul.pub li {font-size:17px; font-weight: 300; font-family:"Pontano Sans", Arial; margin:0 20px 10px 0; margin-left: 2em;
+      text-indent: -2em;}
+ul.pub a {color:/*ltc*/#52616D;text-decoration:none; font-family:"Pontano Sans", sans-serif;font-size:17px;}
+ul.pub a:hover {color:/*hlc*/#D94214;}
+
+/*Logo and image layout */
+body {background:/*bbg*/#F2EEDD;font:12px "Century Gothic", arial, Helvetica, sans-serif;color:#444;}
+.container {width:960px;margin: 0 auto;}
+.logo {display:inline-block; width:400px; margin:15px 0 0 0px}
+.sides {display:inline-block; width:270px; margin:15px 0 0 0px}
+.sides div span{position:absolute; bottom:0; left:0; font-family: 'Pontano Sans', sans-serif; font-size:14px; font-weight: 400; color: /*dtc*/#193441;}
+img.top {box-shadow:3px 3px 1px #888888; width:300px; height=auto; float:center; margin:0 15px 0 0 }
+
+/*navigation*/
+.TopNavigation {height:60px;background:url(../images/bg_nav.gif) no-repeat top center;}
+.social {width:120px; height:60px;float:right; padding: 15px 0 0 0;}
+ul.nav {width:960px;margin: 0 0 0 277px; width: 480px;}
+ul.nav li {float:left; display:inline; margin:17px 45px 0 0; font-size:18px; font-weight: 400; font-family:"Pontano Sans", Arial;}
+ul.nav a {color:/*ltc*/#52616D;text-decoration:none; font-family:"Pontano Sans", Arial;}
+ul.nav a:hover {color:/*hlc*/#D94214;}
+ul.nav .active {color:/*hlc*/#D94214;}
+
+/*people gallery */
+
+.row {
+	padding: 0px 0px 0px 0px;
+	height: 300px;
+}
+
+img.people {width:200px; height:auto; box-shadow:3px 3px 1px #888888;}
+
+div.cap {margin-top:5px; font-size: 13px; font-family:"Oxygen", Arial; font-weight:400; color:/*dtc*/#193441;}
+
+.box_img2 {
+	width: 200px;
+	height: 200px;
+	padding: 0px 0px 0px 0px;
+	float:left;
+	/*border:#666666 2px solid;*/
+}
+
+.box_razd {
+	width: 60px;
+	height: 70px;
+	float: left;
+}
+
+.box_img2 h1 {
+	font-weight:400; 
+	font-family:"Oxygen", Arial;
+	color:/*ltc*/#52616D;
+	font-size:22px;
+	text-align: center;
+	padding: 15px 0px 10px 0px;
+}
+
+.rol_over:hover {
+
+
+/* UNUSED FROM TEMPLATE
+ #containerAbout {width:960px;}
+.rightAbout {float:left;width:240px;margin:0 0 0 15px;}
+.leftAbout {float:left;width:700px;background:url(../images/A.png) no-repeat bottom right ;border-right:1px solid #b1b1b1;}
+.leftAbout p {padding:0 350px 0 0;}
+#skills {width:960px;height:80px;background:url(../images/bg.skills.gif) no-repeat top center;margin:20px 0 50px 0;}
+#skills ul {margin: 0 0 0 270px;list-style:none;padding-top:30px;}
+#skills li {display:inline;margin:40px 40px 0 0;font-size:16px;font-family:"Century Gothic", arial, Helvetica;}
+
+*/
+/*twitter
+ul#twitter_update_list li {list-style-type:none;padding: 0 0 15px 0;color:#000;margin:0;}
+ul#twitter_update_list .divisor {height:1px;border-bottom:1px solid #b1b1b1;}
+ul#twitter_update_list .data {color:#6b6c69;}
+ul#twitter_update_list .data:before {content:"#[";}
+ul#twitter_update_list .data:after {content:"]";}
+ul#twitter_update_list a:link, ul#twitter_update_list a:visited {color:#ab4b05;text-decoration:none;}
+ul#twitter_update_list a:hover, ul#twitter_update_list a:active {color:#ab4b05;text-decoration:underline;}
+*/
+
+/*contact form
+#form {width:570px;margin: 20px 0 40px 0;float:left;}
+.notification_error{border: 1px solid #f1dfc5;height: auto;color: #ca5702;width: 457px;padding: 10px 10px 10px 60px;background:url(../images/icons/erro.png) no-repeat center left #fdf0dc;text-align:left;-moz-border-radius:5px;margin-bottom:10px;}
+.notification_ok{border: 1px #cbcf8e solid;height: auto;width: 90%;padding: 10px;background: #f5f9fd;text-align: center;-moz-border-radius: 5px;margin-bottom:10px;}
+label  { width: 100px; margin: 5px; float: left; text-align:left;}
+textarea{width:400px;margin: 5px;padding: 5px; float: left;border: 1px solid #999999; border-top-color: #CCCCCC; border-left-color: #CCCCCC; color: #333333; font: 11px Verdana, Helvetica, Arial, sans-serif;-moz-border-radius: 3px;}
+.button {margin: 0 0 0 5px; padding-left:150px;}
+br { clear: left; }
+.textbox {width:400px;height:30px;margin: 5px;padding: 5px; float: left;border: 1px solid #999999; border-top-color: #CCCCCC; border-left-color: #CCCCCC; color: #333333; font: 11px Verdana, Helvetica, Arial, sans-serif;-moz-border-radius: 3px;}
+.textbox2 {height:140px;}
+*/
+/*contact info
+#contactInfo {float:left; height:350; width:350px;margin:20px 0 0 0;}
+.bolder {font-weight: normal;font-size:24px;letter-spacing:-1.5px;}
+*/
+/*
+p.footer { font-family:Century Gothic, arial, Helvetica; font-weight:normal; color: #999999; text-align: center; font-size:40px;}
+
+
+background:url(images/rol_over_galery.png) left top no-repeat;
+}
+
+ */
