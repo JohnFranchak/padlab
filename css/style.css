@@ -70,7 +70,7 @@ ul.nav .active {color:/*hlc*/#D94214;}
 
 .row {
 	padding: 0px 0px 0px 0px;
-	height: 300px;
+	height: 275px;
 }
 
 img.people {width:200px; height:auto; box-shadow:3px 3px 1px #888888;}
@@ -80,8 +80,8 @@ div.sidecap {margin-top:5px; font-size: 16px; font-family:"Oxygen", Arial; font-
 
 .box_img2 {
 	width: 200px;
-	height: 300px;
-	padding: 5px 5px 5px 5px;
+	height: 250px;
+	padding: 2px;
 	float:left;
 	/*border:#666666 2px solid;*/
 }
@@ -94,7 +94,7 @@ div.sidecap {margin-top:5px; font-size: 16px; font-family:"Oxygen", Arial; font-
 
 .box_smallgap {
 	width: 30px;
-	height: 300px;
+	height: 275px;
 	float: left;
 }
 
