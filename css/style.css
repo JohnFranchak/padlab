@@ -60,8 +60,8 @@ img.top {box-shadow:3px 3px 1px #888888; width:300px; height=auto; float:center;
 /*navigation*/
 .TopNavigation {height:60px;background:url(../images/bg_nav.gif) no-repeat top center;}
 .social {width:120px; height:60px;float:right; padding: 15px 0 0 0;}
-ul.nav {width:960px;margin: 0 0 0 210px; width: 560px;}
-ul.nav li {float:left; display:inline; margin:17px 45px 0 0; font-size:18px; font-weight: 400; font-family:"Pontano Sans", Arial;}
+ul.nav {width:960px;margin: 0 0 0 200px; width: 560px;}
+ul.nav li {float:left; display:inline; margin:17px 30px 0 0; font-size:18px; font-weight: 400; font-family:"Pontano Sans", Arial;}
 ul.nav a {color:/*ltc*/#52616D;text-decoration:none; font-family:"Pontano Sans", Arial;}
 ul.nav a:hover {color:/*hlc*/#D94214;}
 ul.nav .active {color:/*hlc*/#D94214;}
