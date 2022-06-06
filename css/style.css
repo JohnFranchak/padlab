@@ -55,7 +55,7 @@ body {background:/*bbg*/#F2EEDD;font:12px "Century Gothic", arial, Helvetica, sa
 .logo {display:inline-block; width:400px; margin:15px 0 0 0px}
 .sides {display:inline-block; width:270px; margin:15px 0 0 0px}
 .sides div span{position:absolute; bottom:0; left:0; font-family: 'Pontano Sans', sans-serif; font-size:14px; font-weight: 400; color: /*dtc*/#193441;}
-img.top {box-shadow:3px 3px 1px #888888; width:300px; height=auto; float:center; margin:0 15px 0 0 }
+img.top {box-shadow:3px 3px 1px #888888; width:300px; height:auto; float:center; margin:0 15px 0 0 }
 .nsf {display:inline-block; width:200px; margin:15px 0 0 0px}
 
 /*navigation*/
@@ -110,7 +110,7 @@ div.sidecap {margin-top:5px; font-size: 16px; font-family:"Oxygen", Arial; font-
 	padding: 15px 0px 10px 0px;
 }
 
-.rol_over:hover {
+.rol_over:hover {}
 
 
 /* UNUSED FROM TEMPLATE
