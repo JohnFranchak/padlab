@@ -74,6 +74,8 @@ ul.nav .active {color:/*hlc*/#D94214;}
 	height: 275px;
 }
 
+img.group {width:875px; height:auto; box-shadow:3px 3px 1px #888888;}
+
 img.people {width:200px; height:auto; box-shadow:3px 3px 1px #888888;}
 
 div.cap {margin-top:5px; font-size: 13px; font-family:"Oxygen", Arial; font-weight:400; color:/*dtc*/#193441;}
